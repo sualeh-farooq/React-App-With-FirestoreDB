@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +12,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,4 +37,61 @@
 
 body {
   margin: 0;
+}
+
+.space-con {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.space {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  margin: 0 auto;
+  height: 90vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  /* border: 2px solid black; */
+  height: max-content;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin: 10px;
+  text-align: center;
+}
+
+.input-space {
+border: none;
+outline: none;
+padding: 5px;
+width:70%;
+padding-left: 10px !important;
+font-size: medium;
+}
+
+.input-space:focus {
+  border-bottom: 2px solid black;
+  transition:ease-in 0.1s ;
+}
+.btn {
+  margin-left: 10px;
+}
+
+.btnEdit {
+  color: red !important;
+  background-color: royalblue !important;
+  display: none !important;
 }
